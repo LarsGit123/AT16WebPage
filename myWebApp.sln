@@ -1,9 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet_csharp", "WebApplication1\AspNet_csharp.csproj", "{056F40E9-DB93-47A7-88ED-21D29A8AA5FE}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NewAt16WebPage", "NewAt16WebPage\", "{10A58161-6AAD-4C56-890D-CAF3D3F6BF2A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_40600"
+		Debug.AspNetCompiler.PhysicalPath = "NewAt16WebPage\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_40600\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_40600"
+		Release.AspNetCompiler.PhysicalPath = "NewAt16WebPage\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_40600\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "40600"
+		SlnRelativePath = "NewAt16WebPage\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +37,10 @@ Global
 		{056F40E9-DB93-47A7-88ED-21D29A8AA5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{056F40E9-DB93-47A7-88ED-21D29A8AA5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{056F40E9-DB93-47A7-88ED-21D29A8AA5FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A58161-6AAD-4C56-890D-CAF3D3F6BF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A58161-6AAD-4C56-890D-CAF3D3F6BF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A58161-6AAD-4C56-890D-CAF3D3F6BF2A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A58161-6AAD-4C56-890D-CAF3D3F6BF2A}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

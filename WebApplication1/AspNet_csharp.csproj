@@ -187,6 +187,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Connected Services\at16hoststorageAzureStorage\ConnectedService.json" />
+    <Content Include="GraphPage.cshtml" />
     <None Include="Properties\PublishProfiles\At16 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
