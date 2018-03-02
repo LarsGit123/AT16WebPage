@@ -141,6 +141,22 @@ namespace WebApplication1.Connected_Services
                     topicvalues.Add(time, val);                
             }            
                 return topicvalues;
+
+           
+        }
+        public static TimeSpan ConvertStringToTimeSpan(string datetime)
+        {
+            string yy_mm_dd = datetime.Substring(0, 10);
+            string hh_mm_ss = datetime.Substring(11, 8);
+            DateTime yyyy_mm_dd;
+            DateTime dthh_mm_ss;
+            bool canparse;
+            canparse = DateTime.TryParse(datetime, out yyyy_mm_dd);
+
+            if (canparse)
+                return DateTime.Now - (yyyy_mm_dd);
+            else
+                return TimeSpan.Zero;
         }
     }
 }

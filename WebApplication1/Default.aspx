@@ -28,7 +28,7 @@
         <asp:Label runat="server" text="Fuktighet %" Font-Size="X-Large" Width="300px"/>
         <asp:Label runat="server" id="At16humLabel" Font-Size="X-Large"/>        
         <br />
-        
+        <a href="WebForm1.aspx" />
         <asp:Label runat="server" id="At16timeLabel" />
     </div>
     </form>

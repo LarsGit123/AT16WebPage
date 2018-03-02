@@ -13,7 +13,7 @@ namespace WebApplication1
 {
     public partial class _Default : Page
     {
-        public bool IsFirstLoad { get; set; } = false;
+        public bool IsFirstLoad { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {                        
             At16HostController myController = new At16HostController();
@@ -27,6 +27,22 @@ namespace WebApplication1
             At16tempLabel.Text = tempDictionary.Last().Value;
             At16humLabel.Text = humDictionary.Last().Value;
             At16timeLabel.Text = tempDictionary.Last().Key;
+
+            bool canparse;
+            double parseVal;
+         
+            
+            foreach(var tempdate in tempDictionary)
+            {
+                canparse = Double.TryParse( tempdate.Value.Replace(".",","), out parseVal);
+                if (canparse)
+                    dataClass.TempList.Add(parseVal);
+
+                canparse = Double.TryParse(At16HostController.ConvertStringToTimeSpan(tempdate.Key).Hours.ToString(), out parseVal);
+                if (canparse)
+                    dataClass.TempList.Add(parseVal);          
+            }
+            
 
             foreach (string blobname in KvikneCamblobs)
             {
