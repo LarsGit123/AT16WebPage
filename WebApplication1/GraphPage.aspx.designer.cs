@@ -10,7 +10,7 @@
 namespace WebApplication1 {
     
     
-    public partial class WebForm1 {
+    public partial class GraphPage {
         
         /// <summary>
         /// form1 control.
@@ -20,6 +20,15 @@ namespace WebApplication1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        
+        /// <summary>
+        /// ReturnToMainPage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ReturnToMainPage;
         
         /// <summary>
         /// Chart1 control.

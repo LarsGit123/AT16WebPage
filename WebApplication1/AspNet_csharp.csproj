@@ -188,7 +188,8 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Connected Services\at16hoststorageAzureStorage\ConnectedService.json" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="tempImage\TextFile1.txt" />
+    <Content Include="GraphPage.aspx" />
     <None Include="Properties\PublishProfiles\At16 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -291,12 +292,12 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="GraphPage.aspx.cs">
+      <DependentUpon>GraphPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="GraphPage.aspx.designer.cs">
+      <DependentUpon>GraphPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication1
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class GraphPage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -49,6 +49,11 @@ namespace WebApplication1
             }
             
             return dt;
+        }
+
+        protected void ReturnToMainPage_Command(object sender, CommandEventArgs e)
+        {
+            Response.Redirect("/Default.aspx");
         }
     }
 }

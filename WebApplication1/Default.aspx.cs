@@ -40,7 +40,7 @@ namespace WebApplication1
 
                 canparse = Double.TryParse(At16HostController.ConvertStringToTimeSpan(tempdate.Key).Hours.ToString(), out parseVal);
                 if (canparse)
-                    dataClass.TempList.Add(parseVal);          
+                    dataClass.HourList.Add(parseVal);          
             }
             
 
